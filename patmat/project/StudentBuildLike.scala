@@ -16,7 +16,7 @@ case class MapMapString (val map: Map[String, Map[String, String]])
   */
 class StudentBuildLike protected() extends CommonBuild {
 
-  lazy val root = project.in(file(".")).settings(
+  lazy val fpps_patmat = project.in(file(".")).settings(
     course := "",
     assignment := "",
     submitSetting,
